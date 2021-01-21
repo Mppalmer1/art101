@@ -3,7 +3,7 @@ color:green;
 }
 
 a{
-color:red;
+color:black;
 }
 
 #li_lab_4{
@@ -15,9 +15,35 @@ color:purple;
 }
 
 #main_li_class{
-color:pink;
+color:red;
 }
 
 .ol_li_class{
 color:brown;
 }
+
+img {
+    background-color: #85745E;
+    width: 350px;
+    min-height: 500px;
+    padding: 0px;
+    margin: 10px;
+    border: solid 2px #000000;
+    font-size: 15px;
+}
+ul {
+    background-color: #85745E;
+    width: 125px;
+    min-height: auto;
+    padding: 0px;
+    margin: 10px;
+    border: solid 2px #000000;
+    font-size: 15px;
+}
+
+html {
+    background-color: #D1BFA9;
+  }
+  #dog {
+      font-size: 25px;
+  }
