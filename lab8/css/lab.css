@@ -1,0 +1,11 @@
+
+body {
+  margin:20px;
+  background-color: #ccf4cf;
+  font-size: 20px;
+
+}
+#content {
+  padding: 20px;
+  border: 5px solid green;
+  background-color: white
