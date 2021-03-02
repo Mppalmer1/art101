@@ -1,45 +1,44 @@
+/*
+ * Author: Michael Cremonini <mcremoni@ucsc.edu>
+ * Created: 24 February
+ * License: Public Domain
+ */
 
+var oneLongString= ("");
 
-
-
-
-
-
-
-
-var superString= ("");
-
-  if (numb = 1; numb <= 200; numb++){
+for (var numb=1; numb <= 200; numb++) {
     if (numb % 105 == 0) {
-      console.log ("fizzbuzzboom");
-      superString += numb + " - FizzBuzzBoom! <br>";
-    }
-    else if (numb % 15 == 0) {
-      console.log ("fizzbuzz");
-      superString += numb + " - FizzBuzzBoom! <br>";
-    }
-    else if (numb % 35 == 0) {
-      console.log ("fizzbuzz");
-      superString += numb + " - FizzBuzzBoom! <br>";
-  }
-  else if (numb % 21 == 0) {
-    console.log ("fizzbuzz");
-    superString += numb + " - FizzBuzzBoom! <br>";}
+        console.log("fizzbuzzboom!");
+        oneLongString += numb + "fizzbuzzboom!<br>";
 
-//If the number is a multiple of 3, if should print "Fizz!"
-else if (numb % 3 == 0) {
-  console.log ("fizz");
-  superString += numb + " - Fizz! <b>";
+    } else if (numb %15 == 0) {
+        console.log("fizzbuzz!");
+        oneLongString += numb + "fizzbuzz!<br>";
+
+    } else if (numb %35 == 0) {
+          console.log("buzzboom!");
+    oneLongString += numb + "buzzboom!<br>";
+
+  }   else if (numb %21 == 0) {
+        console.log("fizzboom!");
+  oneLongString += numb + "fizzboom!<br>";
+
+}    else if  (numb % 3 == 0) {
+        console.log("fizz");
+        oneLongString += numb + "fizz!<br>";
+
+}     else if  (numb % 5 == 0) {
+        console.log("buzz");
+        oneLongString += numb + "buzz!<br>";
+
+}     else if  (numb % 7 == 0) {
+        console.log("boom");
+        oneLongString += numb + "boom!<br>";
+
+}else {console.log(numb)
+oneLongString +=numb + "<br>";
 }
 
-//If the number is a multiple of 3, if should print "Buzz!"
-else if (numb % 3 == 0) {
-  console.log ("fizz");
-  superString += numb + " - Fizz! <b>";
-}
+};
 
-//If the number is a multiple of 3, if should print "Boom!"
-else if (numb % 3 == 0) {
-  console.log ("fizz");
-  superString += numb + " - Fizz! <b>";
-}
+$("#output").html(oneLongString);

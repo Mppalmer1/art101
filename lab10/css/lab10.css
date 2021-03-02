@@ -1,8 +1,8 @@
 .namebadge {
   position: absolute;
-    left: 290px;
-    width: 329px;
-    padding: 20px;
+    left: 590px;
+    min-width: 250px ;
+    padding: ;
 }
 #title {
     position: absolute;
@@ -16,5 +16,5 @@
     font-weight: bold;
     font-family: "Times New Roman", serif;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }

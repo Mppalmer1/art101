@@ -45,7 +45,7 @@
 
 html {
     overflow: scroll;
-    zoom: auto;
+    zoom: 100%;
 }
   }
 img {
