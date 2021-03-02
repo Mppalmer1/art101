@@ -5,7 +5,7 @@
 
 //create a div element that has id="div_1" and text that says "this is annoying"
 var divEl = document.getElementById("div_1");
-divEl.innerHTML = "This is annoying";
+divEl.innerHTML = "This is difficult";
 
 
 //console.log that text
@@ -18,6 +18,6 @@ buttonEl.innerHTML = "press me";
 
 //change the text from this annoying into "this is more annoying than I thought!" when Clicking the button
 buttonEl.onclick = function (){
-        divEl.innerHTML = "This is more annoying than I thought!!!!"
-        
+        divEl.innerHTML = "okay"
+
 }

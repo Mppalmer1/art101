@@ -1,9 +1,5 @@
-nav,a{
-  color:green
-}
 
-nav,li{
-  color:Black
+
 }
 body {
   margin:20px;
@@ -19,8 +15,14 @@ body {
 }
 img {
   position: relative;
-    left: 350px;
-    width: 300px;
+    left: 100px;
+    width: 400px;
       padding: 20px;
       border: 5px solid green;
+}
+
+#text {
+
+  border: 5px solid ;
+  background-color: pink;
 }
