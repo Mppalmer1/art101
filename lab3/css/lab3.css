@@ -45,7 +45,7 @@
 
 html {
     overflow: scroll;
-    zoom: 450%;
+    zoom: auto;
 }
   }
 img {
